@@ -23,7 +23,7 @@ export default function Page() {
     <div className="flex items-center justify-center flex-col h-[calc(100vh-56px)]">
       <div
         className={cn(
-          "flex items-center justify-center flex-col",
+          "flex items-center justify-center flex-col -translate-y-10",
           headingFont.className
         )}
       >
@@ -34,13 +34,13 @@ export default function Page() {
         <h1 className="text-4xl md:text-6xl text-center text-neutral-800 mb-4">
           Taskio helps teams move
         </h1>
-        <div className="text-4xl md:text-6xl bg-gradient-to-r from-fuchsia-700 to-pink-700 text-white px-4 p-2 rounded-md py-3 w-fit">
+        <div className="text-5xl md:text-6xl bg-gradient-to-r from-fuchsia-700 to-pink-700 text-white px-4 p-2 rounded-md py-3 w-fit">
           work forward.
         </div>
       </div>
       <div
         className={cn(
-          "text-md md:text-lg text-neutral-500 mt-6 max-w-xs md:max-w-2xl text-center mx-auto leading-1 block",
+          "text-md md:text-lg text-neutral-500  mt-0 md:mt-6 max-w-xs md:max-w-2xl text-center mx-auto leading-1 block",
           textFont.className
         )}
       >
